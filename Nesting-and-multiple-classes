@@ -1,0 +1,49 @@
+1- rubyinstall
+2- gem install sass
+3- sass --watch sass:css
+
+https://sass-lang.com/guide
+https://rubyinstaller.org/
+
+
+
+
+----------------------------------------
+Nesting 
+____________
+index.html
+
+<nav id="menu">
+
+	<ul>
+<li> <a href="#">Home</a></li>
+<li> <a href="#">About Us</a></li>
+<li> <a href="#">Services</a></li>
+<li> <a href="#">Help</a></li>
+<li> <a href="#">Contact Us</a></li>
+	</ul>
+
+</nav>
+
+__________________________________________
+
+main.scss
+
+#menu
+{
+	width:100%; background-color:green;  float:left; 
+ ul
+{
+	padding:0px;
+	margin:0px;
+}
+ li
+{
+	float:left; list-style:none;
+}
+ a
+{
+	text-decoration:none; display:block; width:100px; height:200px; border: 1px solid yellow;
+}
+}
+
