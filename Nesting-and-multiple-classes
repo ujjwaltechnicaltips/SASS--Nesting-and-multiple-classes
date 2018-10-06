@@ -63,6 +63,18 @@ font-size:24px;
 }
 
 }
+_________________________________________________________________________________
+<a href="#">Ujjwal Technical Tips Link </a>
+----------------------------------------------
 
+main.scss
+a
+   {
+   color:red;
 
+&:hover
+{
+background-color:$hoverbg;
+}
+ }     
 
