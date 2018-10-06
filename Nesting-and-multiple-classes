@@ -76,5 +76,16 @@ a
 {
 background-color:$hoverbg;
 }
+&:focus
+{ background-color:$hoverbg;
+}
+
+&:after
+{content:'';
+}
+&:before
+{content:'';
+}
+
  }     
 
