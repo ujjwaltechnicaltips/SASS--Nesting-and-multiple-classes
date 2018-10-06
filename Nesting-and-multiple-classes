@@ -1,15 +1,12 @@
 1- rubyinstall
 2- gem install sass
 3- sass --watch sass:css
-
 https://sass-lang.com/guide
 https://rubyinstaller.org/
 
 
-
-
 ----------------------------------------
-Nesting 
+Nesting  Exam - 1
 ____________
 index.html
 
@@ -24,7 +21,6 @@ index.html
 	</ul>
 
 </nav>
-
 __________________________________________
 
 main.scss
@@ -43,7 +39,30 @@ main.scss
 }
  a
 {
-	text-decoration:none; display:block; width:100px; height:200px; border: 1px solid yellow;
+text-decoration:none; display:block; width:100px; height:200px; border: 1px solid yellow;
 }
 }
+----------------------------------------
+Nesting  Exam - 2
+
+<header>
+<h1> Sass Tutorials</h1>
+<p> Lorem ipsurm dolor</p>
+</header>
+
+
+header
+{ background-color:$bgcolor;
+  padding:15px;
+  color:$headcolor;
+h1
+{
+font-weight:600px;
+color:#f5f5f5;
+font-size:24px;
+}
+
+}
+
+
 
